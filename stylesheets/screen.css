@@ -1,4 +1,4 @@
-/*CSS File*/
+/*------------------------------Overall site wide Style starts----------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,9 @@
 
 article, aside, details, figure, footer, header, hgroup, menu, nav, section, div, a {
     display: block;
-    position: relative;
+}
+body, input, select, textarea, button {
+    font: 13px/1.4 Helvetica;
 }
 
 body {
@@ -27,6 +29,79 @@ table {
 }
 
 .content {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
 }
+
+/*------------------------------Overall site wide Style ends----------------------------*/
+
+/*------------------------------Style for header starts----------------------------*/
+#header {
+    height: 300px;
+}
+
+#header-top {
+    background: none repeat scroll 0 0 #333333;
+    height: 38px;
+    width: 100%;
+    position: fixed;
+}
+
+#header-top .menu {
+    float: left;
+}
+
+#header-top .menu ul li {
+    float: left;
+}
+
+#header-top .menu ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+#header-top .menu ul li a:hover {
+    background: none repeat scroll 0 0 #555555;
+}
+
+#header-top .owner {
+    float: right;
+}
+#header-top .owner .name {
+    line-height: 38px;
+    padding: 11px 20px;
+    font-weight: bold;
+}
+
+#header-top .owner .name:hover {
+    background: none repeat scroll 0 0 #555555;
+    cursor: pointer;
+    color: #999999;
+}
+
+/*------------------------------Style for header ends----------------------------*/
+
+/*------------------------------Style for section starts----------------------------*/
+#section {
+    min-height: 500px;
+}
+/*------------------------------Style for section ends----------------------------*/
+
+/*------------------------------Style for footer starts----------------------------*/
+
+#footer {
+    height: 300px;
+}
+
+#footer-top {
+    height: 10px;
+    background: none repeat scroll 0 0 #345678;
+}
+
+#footer-bottom {
+    background: none repeat scroll 0 0 #333333;
+    height: 290px;
+}
+/*------------------------------Style for footer ends----------------------------*/
