@@ -33,6 +33,12 @@ table {
     margin: 0 auto;
 }
 
+.clearfix {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+}
 /*------------------------------Overall site wide Style ends----------------------------*/
 
 /*------------------------------Style for header starts----------------------------*/
@@ -40,45 +46,71 @@ table {
     height: 300px;
 }
 
-#header-top {
+#header .header-top {
     background: none repeat scroll 0 0 #333333;
     height: 38px;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
-#header-top .menu {
+#header .header-top .menu {
     float: left;
+    height: 38px;
 }
 
-#header-top .menu ul li {
+#header .header-top .menu ul li {
     float: left;
+    height: 38px;
 }
 
-#header-top .menu ul li a {
+#header .header-top .menu ul li a {
     color: #FFFFFF;
     font-weight: bold;
     padding: 10px 15px;
     text-decoration: none;
 }
 
-#header-top .menu ul li a:hover {
+#header .header-top .menu ul li a:hover,
+#header .header-top .menu ul li.active {
     background: none repeat scroll 0 0 #555555;
 }
 
-#header-top .owner {
+#header .header-top .owner {
     float: right;
+    height: 38px;
 }
-#header-top .owner .name {
+#header .header-top .owner .name {
     line-height: 38px;
     padding: 11px 20px;
     font-weight: bold;
 }
 
-#header-top .owner .name:hover {
+#header .header-top .owner .name:hover {
     background: none repeat scroll 0 0 #555555;
     cursor: pointer;
     color: #999999;
+}
+
+#header .header-top-line {
+    background: none repeat scroll 0 0 #345678;
+    float: left;
+    height: 43px;
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+}
+
+#header .header-middle {
+    height: 260px;
+    width: 100%;
+}
+
+
+#header .header-bottom {
+    background: none repeat scroll 0 0 #CCCCCC;
+    height: 40px;
+    width: 100%;
 }
 
 /*------------------------------Style for header ends----------------------------*/
@@ -96,7 +128,7 @@ table {
 }
 
 #footer-top {
-    height: 10px;
+    height: 5px;
     background: none repeat scroll 0 0 #345678;
 }
 
