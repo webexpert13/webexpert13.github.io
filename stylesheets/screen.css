@@ -88,7 +88,7 @@ table {
 }
 #header .header-top .sub-list li a:hover {
     background: none repeat scroll 0 0 #509546;
-}
+    text-decoration: none;
 }
 #header .header-top .owner {
     float: right;
