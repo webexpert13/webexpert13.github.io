@@ -63,6 +63,15 @@ table {
     color: #FFFFFF;
     cursor: pointer;
 }
+#header .header-top ul .post ul {
+    display: none;
+    width: 200px;
+    height: auto;
+} 
+#header .header-top ul .post:hover ul {
+    display: block;
+    background: none repeat scroll 0 0 #CCCCCC;
+}
 #header .header-top .owner {
     float: right;
     height: 38px;
