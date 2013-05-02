@@ -64,13 +64,26 @@ table {
     cursor: pointer;
 }
 #header .header-top ul .post ul {
+    border: 1px solid #345678;
     display: none;
-    width: 200px;
+    float: left;
     height: auto;
-} 
+    position: relative;
+    width: 200px;
+}
+#header .header-top ul li.post {
+    width: 63px;
+}
 #header .header-top ul .post:hover ul {
-    display: block;
+    display: block !important;
     background: none repeat scroll 0 0 #CCCCCC;
+}
+#header .header-top ul .post:hover ul li {
+    display: block !important;
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+#header .header-top .sub-list li a {
+    width: 170px;
 }
 #header .header-top .owner {
     float: right;
