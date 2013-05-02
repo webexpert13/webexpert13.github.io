@@ -78,10 +78,6 @@ table {
     display: block !important;
     background: none repeat scroll 0 0 #345678;
 }
-#header .header-top ul li.post:hover ul li {
-    display: block !important;
-    background: none repeat scroll 0 0 #CCCCCC;
-}
 #header .header-top .sub-list li a {
     width: 170px;
     border-bottom: 1px solid #777777;
