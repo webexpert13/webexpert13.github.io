@@ -60,6 +60,7 @@ table {
 #header .header-top .owner ul li:hover {
     background: none repeat scroll 0 0 #345678;
     color: #FFFFFF;
+    cursor: pointer;
 }
 #header .header-top .owner {
     float: right;
