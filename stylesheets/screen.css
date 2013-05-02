@@ -63,14 +63,8 @@ table {
     height: 38px;
 }
 #header .header-top .owner .name {
-    line-height: 38px;
     padding: 11px 20px;
     font-weight: bold;
-}
-#header .header-top .owner .name:hover {
-    background: none repeat scroll 0 0 #345678;
-    cursor: pointer;
-    color: #999999;
 }
 #header .header-top-line {
     background: none repeat scroll 0 0 #345678;
