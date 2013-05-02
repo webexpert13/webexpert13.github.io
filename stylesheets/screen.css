@@ -44,18 +44,19 @@ table {
     float: left;
     height: 38px;
 }
-#header .header-top ul li {
+#header .header-top .menu ul li {
     float: left;
     height: 38px;
 }
-#header .header-top ul li a {
+#header .header-top .menu ul li a {
     color: #FFFFFF;
     font-weight: bold;
     padding: 10px 15px;
     text-decoration: none;
 }
-#header .header-top ul li a:hover,
-#header .header-top ul li.active {
+#header .header-top .menu ul li a:hover,
+#header .header-top .menu ul li.active,
+#header .header-top .owner ul li:hover {
     background: none repeat scroll 0 0 #345678;
 }
 #header .header-top .owner {
@@ -63,8 +64,9 @@ table {
     height: 38px;
 }
 #header .header-top .owner .name {
-    padding: 11px 20px;
     font-weight: bold;
+    line-height: 38px;
+    padding: 0 20px;
 }
 #header .header-top-line {
     background: none repeat scroll 0 0 #345678;
