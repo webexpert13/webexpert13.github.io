@@ -13,7 +13,7 @@ body, input, select, textarea, button {
 }
 body {
     content: '';
-    color: #555555;
+    color: #333333;
     background: url("../images/background.png") repeat scroll 0 0 transparent;
 }
 ol, ul {
@@ -58,6 +58,7 @@ table {
 #header .header-top .menu ul li.active,
 #header .header-top .owner ul li:hover {
     background: none repeat scroll 0 0 #345678;
+    color: #FFFFFF;
 }
 #header .header-top .owner {
     float: right;
