@@ -87,9 +87,6 @@ table {
     background: none repeat scroll 0 0 #345678;
     text-decoration: none;
 }
-#header .header-top .sub-list li.first {
-    border-top: 5px solid #345678;
-}
 #header .header-top .sub-list li.last {
     border-bottom: 5px solid #345678;
 }
