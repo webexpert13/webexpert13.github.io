@@ -76,14 +76,16 @@ table {
 }
 #header .header-top ul li.post:hover ul {
     display: block !important;
-    background: none repeat scroll 0 0 #345678;
+    background: none repeat scroll 0 0 #333333;
 }
 #header .header-top .sub-list li a {
     width: 170px;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
     border-bottom: 1px solid #777777;
 }
 #header .header-top .sub-list li a:hover {
-    background: none repeat scroll 0 0 #509546;
+    background: none repeat scroll 0 0 #345678;
     text-decoration: none;
 }
 #header .header-top .owner {
