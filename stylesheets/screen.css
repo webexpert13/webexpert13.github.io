@@ -55,6 +55,7 @@ table {
     font-weight: bold;
     padding: 10px 15px;
     text-decoration: none;
+    outline: 0 none;
 }
 #header .header-top ul li a:hover,
 #header .header-top ul li.active,
@@ -64,7 +65,6 @@ table {
     cursor: pointer;
 }
 #header .header-top ul .post ul {
-    border: 1px solid #345678;
     display: none;
     float: left;
     height: auto;
@@ -74,16 +74,21 @@ table {
 #header .header-top ul li.post {
     width: 63px;
 }
-#header .header-top ul .post:hover ul {
+#header .header-top ul li.post:hover ul {
     display: block !important;
-    background: none repeat scroll 0 0 #CCCCCC;
+    background: none repeat scroll 0 0 #345678;
 }
-#header .header-top ul .post:hover ul li {
+#header .header-top ul li.post:hover ul li {
     display: block !important;
     background: none repeat scroll 0 0 #CCCCCC;
 }
 #header .header-top .sub-list li a {
     width: 170px;
+    border-bottom: 1px solid #777777;
+}
+#header .header-top .sub-list li a:hover {
+    background: none repeat scroll 0 0 #509546;
+}
 }
 #header .header-top .owner {
     float: right;
