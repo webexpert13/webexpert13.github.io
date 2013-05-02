@@ -34,7 +34,8 @@ table {
     height: 300px;
 }
 #header .header-top {
-    background: none repeat scroll 0 0 #333333;
+    background-color: #333333;
+    background-image: linear-gradient(to bottom, #222222, #333333);
     height: 38px;
     width: 100%;
     position: fixed;
