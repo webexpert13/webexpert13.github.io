@@ -44,18 +44,18 @@ table {
     float: left;
     height: 38px;
 }
-#header .header-top .menu ul li {
+#header .header-top ul li {
     float: left;
     height: 38px;
 }
-#header .header-top .menu ul li a {
+#header .header-top ul li a {
     color: #FFFFFF;
     font-weight: bold;
     padding: 10px 15px;
     text-decoration: none;
 }
-#header .header-top .menu ul li a:hover,
-#header .header-top .menu ul li.active {
+#header .header-top ul li a:hover,
+#header .header-top ul li.active {
     background: none repeat scroll 0 0 #345678;
 }
 #header .header-top .owner {
