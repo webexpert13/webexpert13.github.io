@@ -75,11 +75,12 @@ table {
     z-index: 0;
 }
 #header .header-middle {
+    background: none repeat scroll 0 0 #573A26;
     height: 260px;
     width: 100%;
 }
 #header .header-bottom {
-    background: none repeat scroll 0 0 #CCCCCC;
+    background: none repeat scroll 0 0 #509546;
     height: 40px;
     width: 100%;
 }
