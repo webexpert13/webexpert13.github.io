@@ -29,6 +29,12 @@ table {
     width: 1150px;
     margin: 0 auto;
 }
+ul .child-item a {
+    border-bottom: 1px solid #876543;
+}
+ul .last a {
+    border-bottom: medium none !important;
+}
 /*------------------------------Overall site wide Style ends----------------------------*/
 
 /*------------------------------Style for header starts----------------------------*/
