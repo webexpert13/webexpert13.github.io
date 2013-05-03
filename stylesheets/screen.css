@@ -108,8 +108,9 @@ table {
     z-index: 0;
 }
 #header .header-middle {
-    background: none repeat scroll 0 0 #573A26;
-    height: 260px;
+    background: none repeat scroll 0 0 #333333;
+    border-bottom: 5px solid #876543;
+    height: 200px;
     width: 100%;
 }
 #header .header-bottom {
