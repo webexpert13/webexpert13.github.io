@@ -29,12 +29,6 @@ table {
     width: 1150px;
     margin: 0 auto;
 }
-ul .child-item a {
-    border-bottom: 1px solid #876543;
-}
-ul .last a {
-    border-bottom: medium none !important;
-}
 /*------------------------------Overall site wide Style ends----------------------------*/
 
 /*------------------------------Style for header starts----------------------------*/
@@ -95,10 +89,16 @@ ul .last a {
 #header .header-top ul li.networks:hover ul {
     display: block !important;
 }
-#header .header-top .sub-list li a {
+#header .header-top .sub-list li {
     border-left: 5px solid #345678;
     border-right: 5px solid #345678;
+}
+#header .header-top .sub-list li a {
+    border-top: 1px solid #876543;
     width: 175px;
+}
+#header .header-top .sub-list .last a {
+    border-top: medium none !important;
 }
 #header .header-top .sub-list li.last {
     border-bottom: 5px solid #345678;
