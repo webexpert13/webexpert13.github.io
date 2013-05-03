@@ -133,12 +133,8 @@ table {
 /*------------------------------Style for section ends----------------------------*/
 
 /*------------------------------Style for footer starts----------------------------*/
-#footer-top {
-    height: 5px;
-    background: none repeat scroll 0 0 #345678;
-}
-
-#footer-bottom {
+#footer {
+    border-top: 5px solid #876543;
     background: none repeat scroll 0 0 #333333;
     height: 290px;
 }
