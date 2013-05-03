@@ -97,7 +97,7 @@ table {
     border-top: 1px solid #876543;
     width: 175px;
 }
-#header .header-top .sub-list .last a {
+#header .header-top .sub-list .first a {
     border-top: medium none !important;
 }
 #header .header-top .sub-list li.last {
