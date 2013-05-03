@@ -42,6 +42,7 @@ table {
     background-image: linear-gradient(top, #333333, #222222);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+    border-bottom: 5px solid #345678;
     height: 38px;
     width: 100%;
     position: fixed;
@@ -106,14 +107,6 @@ table {
 #header .header-top .owner {
     float: right;
     height: 38px;
-}
-#header .header-top-line {
-    background: none repeat scroll 0 0 #345678;
-    float: left;
-    height: 43px;
-    position: fixed;
-    width: 100%;
-    z-index: 0;
 }
 #header .header-middle {
     background: none repeat scroll 0 0 #333333;
