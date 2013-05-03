@@ -70,7 +70,8 @@ table {
     color: #FFFFFF;
     cursor: pointer;
 }
-#header .header-top ul .post ul {
+#header .header-top ul .posts ul,
+#header .header-top ul .networks ul{
     display: none;
     float: left;
     height: auto;
@@ -78,10 +79,12 @@ table {
     width: 210px;
     background: none repeat scroll 0 0 #222222;
 }
-#header .header-top ul li.post {
+#header .header-top ul li.posts,
+#header .header-top ul li.networks {
     width: 63px;
 }
-#header .header-top ul li.post:hover ul {
+#header .header-top ul li.posts:hover ul,
+#header .header-top ul li.networks:hover ul {
     display: block !important;
 }
 #header .header-top .sub-list li a {
