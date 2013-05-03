@@ -79,22 +79,18 @@ table {
     height: auto;
     position: relative;
     width: 210px;
+    background: none repeat scroll 0 0 #333333;
 }
 #header .header-top ul li.post {
     width: 63px;
 }
 #header .header-top ul li.post:hover ul {
     display: block !important;
-    background: none repeat scroll 0 0 #333333;
 }
 #header .header-top .sub-list li a {
     border-left: 5px solid #345678;
     border-right: 5px solid #345678;
     width: 175px;
-}
-#header .header-top .sub-list li a:hover {
-    background: none repeat scroll 0 0 #345678;
-    text-decoration: none;
 }
 #header .header-top .sub-list li.last {
     border-bottom: 5px solid #345678;
