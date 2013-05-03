@@ -32,9 +32,6 @@ table {
 /*------------------------------Overall site wide Style ends----------------------------*/
 
 /*------------------------------Style for header starts----------------------------*/
-#header {
-    height: 300px;
-}
 #header .header-top {
     background-color: #333333;
     background-image: -moz-linear-gradient(top, #333333, #222222);
