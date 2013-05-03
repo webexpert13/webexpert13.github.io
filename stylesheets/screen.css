@@ -79,8 +79,10 @@ table {
     width: 210px;
     background: none repeat scroll 0 0 #222222;
 }
-#header .header-top ul li.posts,
 #header .header-top ul li.networks {
+    width: 90px;
+}
+#header .header-top ul li.posts {
     width: 63px;
 }
 #header .header-top ul li.posts:hover ul,
