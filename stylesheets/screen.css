@@ -42,7 +42,7 @@ table {
     background-image: linear-gradient(top, #333333, #222222);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
-    border-bottom: 5px solid #345678;
+    border-bottom: 1px solid #345678;
     height: 38px;
     width: 100%;
     position: fixed;
@@ -91,8 +91,8 @@ table {
     display: block !important;
 }
 #header .header-top .sub-list li {
-    border-left: 5px solid #345678;
-    border-right: 5px solid #345678;
+    border-left: 1px solid #345678;
+    border-right: 1px solid #345678;
 }
 #header .header-top .sub-list li a {
     border-top: 1px solid #876543;
@@ -102,7 +102,7 @@ table {
     border-top: medium none !important;
 }
 #header .header-top .sub-list li.last {
-    border-bottom: 5px solid #345678;
+    border-bottom: 1px solid #345678;
 }
 #header .header-top .owner {
     float: right;
